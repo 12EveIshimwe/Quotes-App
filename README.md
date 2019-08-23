@@ -22,7 +22,7 @@ None
 None
 
 #Technologies Used:
-Angular
+Angular CLI
 
 #Contact Details:
 Email:eveish@gmail.com Phone number: 0788123450
