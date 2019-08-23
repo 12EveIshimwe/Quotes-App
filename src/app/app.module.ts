@@ -3,7 +3,7 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { QuotesComponent } from './quotes/quotes.component';
+import { quoteComponent } from './quotes/quotes.component';
 import { QuoteDetailComponent } from './quote-detail/quote-detail.component';
 import { QuoteFormComponent } from './quote-form/quote-form.component';
 import { DateCountPipe } from './date-count.pipe';
@@ -11,7 +11,7 @@ import { DateCountPipe } from './date-count.pipe';
 @NgModule({
   declarations: [
     AppComponent,
-    QuotesComponent,
+    quoteComponent,
     QuoteDetailComponent,
     QuoteFormComponent,
     DateCountPipe

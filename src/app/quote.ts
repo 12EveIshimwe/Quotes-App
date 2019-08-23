@@ -1,6 +1,5 @@
-export class quotes {
-    showDescription: boolean;
-    constructor(public id: number,public name: string,public description: string){
-      this.showDescription=false;
-    }
-  }
+export class quote {
+    quote: string;
+    author: string;
+    person: string;
+}

@@ -1,12 +1,12 @@
 import { Component, OnInit } from "@angular/core";
-import { quotes } from "../quote";
+import { quote } from "../quote";
 @Component({
  selector: "app-quote",
  templateUrl: "./quote.component.html",
  styleUrls: ["./quote.component.css"]
 })
-export class QuoteComponent implements OnInit {
- quotes: quotes[]=[
+export class quoteComponent implements OnInit {
+ quotes: quote[]=[
    
  ];
  addNewQuote(quote) {
