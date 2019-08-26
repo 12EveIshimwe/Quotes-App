@@ -1,5 +1,11 @@
-export class quote {
-    quote: string;
-    author: string;
-    person: string;
-}
+export class Quote {
+    public upvotes: number;
+    public downvotes: number;
+    public submit;
+    showAuthor: boolean;
+    constructor(public id: number, public quote: string, public author: string, public person: string, public completeDate: Date) {
+        this.showAuthor = false;
+        this.upvotes = 0;
+        this.downvotes = 0;
+    }
+ }

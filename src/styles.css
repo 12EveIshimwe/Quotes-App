@@ -1,7 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+
 @import "~bootstrap/dist/css/bootstrap.css";
-textarea {
-    border: 2px solid;
-    width: 50px;
-    height: 80px;
-}
+body{
+    background-image: url("https://www.barraques.cat/pngfile/big/0-7755_nature-pier-bridge-d-river-water-sunset-night.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+ header{
+    text-align: center;
+    background-color: black;
+ }
+ p{
+    color: yellowgreen;
+ }
+ #styles {
+     color: white;
+ }

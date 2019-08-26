@@ -1,8 +1,8 @@
 <div class="col-md-6">
   <app-quote-form (addQuote)="addNewQuote($event)"></app-quote-form>
 </div>
-<div *ngFor= 'let q of quotes'>
-  <p>{{q.quotes}}</p>
+<div id="style" *ngFor= 'let q of quotes'>
+  <p>{{q.quote}}</p>
   <p>{{q.author}}</p>
   <p>{{q.person}}</p>
 </div>
